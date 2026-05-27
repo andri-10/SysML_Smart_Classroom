@@ -46,12 +46,12 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_J67-MFkOEfGLuYLK4GuUyA" name="Researcher"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_MLXvwFkOEfGLuYLK4GuUyA" name="System Administrator"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_aL65YFkOEfGLuYLK4GuUyA" name="UC1 - Monitor Air Quality"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_eR7sgFkOEfGLuYLK4GuUyA" name="UC2 - Automatic Window Control">
-      <include xmi:type="uml:Include" xmi:id="_PIUXIFkQEfGLuYLK4GuUyA" addition="_aL65YFkOEfGLuYLK4GuUyA"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eR7sgFkOEfGLuYLK4GuUyA" name="UC2 - Control Windows Automatically"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_oa780FkOEfGLuYLK4GuUyA" name="UC3 - View Real-Time Occupancy"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_o6kfIFkOEfGLuYLK4GuUyA" name="UC4 - Get Occupancy Prediction"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_qu9N4FkOEfGLuYLK4GuUyA" name="UC5 - Manage Room Dashboard"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_o6kfIFkOEfGLuYLK4GuUyA" name="UC4 - Get Occupancy Prediction">
+      <include xmi:type="uml:Include" xmi:id="_mkecgFn1EfGvf9u7S30UQQ" addition="_oa780FkOEfGLuYLK4GuUyA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qu9N4FkOEfGLuYLK4GuUyA" name="UC5 - Manage Smart Classroom Dashboard"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_EOWZYFkPEfGLuYLK4GuUyA" name="" memberEnd="_EOXnglkPEfGLuYLK4GuUyA _EOYOkFkPEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EOXngFkPEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EOXngVkPEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
@@ -66,26 +66,12 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_L2ugAlkPEfGLuYLK4GuUyA" name="uc1 - monitor air quality" type="_aL65YFkOEfGLuYLK4GuUyA" association="_L2tR4FkPEfGLuYLK4GuUyA"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_L2vHEFkPEfGLuYLK4GuUyA" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_L2tR4FkPEfGLuYLK4GuUyA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ODaaAFkPEfGLuYLK4GuUyA" name="" memberEnd="_ODcPMVkPEfGLuYLK4GuUyA _ODcPMlkPEfGLuYLK4GuUyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ODboIFkPEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ODcPMFkPEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ODcPMVkPEfGLuYLK4GuUyA" name="uc2 - automatic window control" type="_eR7sgFkOEfGLuYLK4GuUyA" association="_ODaaAFkPEfGLuYLK4GuUyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ODcPMlkPEfGLuYLK4GuUyA" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_ODaaAFkPEfGLuYLK4GuUyA"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_QnfgUFkPEfGLuYLK4GuUyA" memberEnd="_Qnh8kFkPEfGLuYLK4GuUyA _Qnh8kVkPEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QnhVgFkPEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QnhVgVkPEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Qnh8kFkPEfGLuYLK4GuUyA" name="uc5 - manage room dashboard" type="_qu9N4FkOEfGLuYLK4GuUyA" association="_QnfgUFkPEfGLuYLK4GuUyA"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Qnh8kVkPEfGLuYLK4GuUyA" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_QnfgUFkPEfGLuYLK4GuUyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_KPBF4FkQEfGLuYLK4GuUyA" name="" memberEnd="_KPDiIVkQEfGLuYLK4GuUyA _KPEJMFkQEfGLuYLK4GuUyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KPC7EFkQEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KPDiIFkQEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_KPDiIVkQEfGLuYLK4GuUyA" name="uc1 - monitor air quality" type="_aL65YFkOEfGLuYLK4GuUyA" association="_KPBF4FkQEfGLuYLK4GuUyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_KPEJMFkQEfGLuYLK4GuUyA" name="researcher" type="_J67-MFkOEfGLuYLK4GuUyA" association="_KPBF4FkQEfGLuYLK4GuUyA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Mc55wFkQEfGLuYLK4GuUyA" name="" memberEnd="_Mc7u8lkQEfGLuYLK4GuUyA _Mc8WAFkQEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mc7u8FkQEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
@@ -415,6 +401,50 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RegAAVk_EfGSZbaOQQhbHQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_RehOIlk_EfGSZbaOQQhbHQ" name="private cloud" type="_lpw04Fk-EfGSZbaOQQhbHQ" association="_Reex4Fk_EfGSZbaOQQhbHQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_2SRAgFn0EfGvf9u7S30UQQ" name="ThingsBoard Platform"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ase8oFn1EfGvf9u7S30UQQ" name="UC6 - Generate Sustainability Metrics"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_P1TV4Fn1EfGvf9u7S30UQQ" memberEnd="_P1XnUFn1EfGvf9u7S30UQQ _P1XnUVn1EfGvf9u7S30UQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P1VyIFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P1WZMFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_P1XnUFn1EfGvf9u7S30UQQ" name="uc6 - generate sustainability metrics" type="_Ase8oFn1EfGvf9u7S30UQQ" association="_P1TV4Fn1EfGvf9u7S30UQQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_P1XnUVn1EfGvf9u7S30UQQ" name="researcher" type="_J67-MFkOEfGLuYLK4GuUyA" association="_P1TV4Fn1EfGvf9u7S30UQQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Sn8coFn1EfGvf9u7S30UQQ" memberEnd="_Sn-44ln1EfGvf9u7S30UQQ _Sn_f8Fn1EfGvf9u7S30UQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sn-44Fn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Sn-44Vn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Sn-44ln1EfGvf9u7S30UQQ" name="uc4 - get occupancy prediction" type="_o6kfIFkOEfGLuYLK4GuUyA" association="_Sn8coFn1EfGvf9u7S30UQQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Sn_f8Fn1EfGvf9u7S30UQQ" name="researcher" type="_J67-MFkOEfGLuYLK4GuUyA" association="_Sn8coFn1EfGvf9u7S30UQQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Xoj20Fn1EfGvf9u7S30UQQ" memberEnd="_Xom6IVn1EfGvf9u7S30UQQ _XooIQFn1EfGvf9u7S30UQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XomTEFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xom6IFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Xom6IVn1EfGvf9u7S30UQQ" name="" type="_aL65YFkOEfGLuYLK4GuUyA" association="_Xoj20Fn1EfGvf9u7S30UQQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_XooIQFn1EfGvf9u7S30UQQ" name="thingsboard platform" type="_2SRAgFn0EfGvf9u7S30UQQ" association="_Xoj20Fn1EfGvf9u7S30UQQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_beQWAFn1EfGvf9u7S30UQQ" memberEnd="_beUAYFn1EfGvf9u7S30UQQ _beUncFn1EfGvf9u7S30UQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_beTZUFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_beTZUVn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_beUAYFn1EfGvf9u7S30UQQ" name="uc2 - automatic window control" type="_eR7sgFkOEfGLuYLK4GuUyA" association="_beQWAFn1EfGvf9u7S30UQQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_beUncFn1EfGvf9u7S30UQQ" type="_Xoj20Fn1EfGvf9u7S30UQQ" association="_beQWAFn1EfGvf9u7S30UQQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dJZpMFn1EfGvf9u7S30UQQ" memberEnd="_dJcsgVn1EfGvf9u7S30UQQ _dJdTkFn1EfGvf9u7S30UQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dJcFcFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dJcsgFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dJcsgVn1EfGvf9u7S30UQQ" name="uc5 - manage room dashboard" type="_qu9N4FkOEfGLuYLK4GuUyA" association="_dJZpMFn1EfGvf9u7S30UQQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dJdTkFn1EfGvf9u7S30UQQ" type="_beQWAFn1EfGvf9u7S30UQQ" association="_dJZpMFn1EfGvf9u7S30UQQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gx8dMFn1EfGvf9u7S30UQQ" memberEnd="_gx_ggVn1EfGvf9u7S30UQQ _gyAHkFn1EfGvf9u7S30UQQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gx-5cFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gx_ggFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gx_ggVn1EfGvf9u7S30UQQ" name="uc6 - generate sustainability metrics" type="_Ase8oFn1EfGvf9u7S30UQQ" association="_gx8dMFn1EfGvf9u7S30UQQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gyAHkFn1EfGvf9u7S30UQQ" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_gx8dMFn1EfGvf9u7S30UQQ"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VXoV4FkMEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VXsnUFkMEfGLuYLK4GuUyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
