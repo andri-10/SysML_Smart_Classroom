@@ -764,6 +764,44 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_FwS-UVoBEfGML5WOtF-fjw" name="" type="_Sx0egFk-EfGSZbaOQQhbHQ" association="_FwP7AFoBEfGML5WOtF-fjw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_RUb_sFudEfGrXrqDPBA--Q" name="Air Quality Monitoring" node="_SzmFUFudEfGrXrqDPBA--Q _gaQIQFudEfGrXrqDPBA--Q _KC6WAFuhEfGrXrqDPBA--Q _LrfdYFuhEfGrXrqDPBA--Q _R9rNIFuhEfGrXrqDPBA--Q _gsfyAFuhEfGrXrqDPBA--Q _1lgoQFuhEfGrXrqDPBA--Q _-UkDEFuhEfGrXrqDPBA--Q _QBZRMFuiEfGrXrqDPBA--Q _T6axMFuiEfGrXrqDPBA--Q _intFAFuiEfGrXrqDPBA--Q _1M5egFuiEfGrXrqDPBA--Q _-7kjQFuiEfGrXrqDPBA--Q _OJCzAFujEfGrXrqDPBA--Q _S5-ycFujEfGrXrqDPBA--Q _cXMTwFujEfGrXrqDPBA--Q">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_t6RXsFudEfGrXrqDPBA--Q" target="_gaQIQFudEfGrXrqDPBA--Q" source="_SzmFUFudEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_V5xPQFuhEfGrXrqDPBA--Q" target="_KC6WAFuhEfGrXrqDPBA--Q" source="_gaQIQFudEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Z6jkIFuhEfGrXrqDPBA--Q" target="_LrfdYFuhEfGrXrqDPBA--Q" source="_KC6WAFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Z7WY4FuiEfGrXrqDPBA--Q" target="_-UkDEFuhEfGrXrqDPBA--Q" source="_1lgoQFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ay1agFuiEfGrXrqDPBA--Q" target="_QBZRMFuiEfGrXrqDPBA--Q" source="_1lgoQFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ndtxsFuiEfGrXrqDPBA--Q" target="_intFAFuiEfGrXrqDPBA--Q" source="_-UkDEFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_oQXWoFuiEfGrXrqDPBA--Q" target="_intFAFuiEfGrXrqDPBA--Q" source="_QBZRMFuiEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_5LA54FuiEfGrXrqDPBA--Q" target="_1M5egFuiEfGrXrqDPBA--Q" source="_intFAFuiEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_A1_okFujEfGrXrqDPBA--Q" name="[no]" target="_-7kjQFuiEfGrXrqDPBA--Q" source="_gsfyAFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Y8pfgFujEfGrXrqDPBA--Q" target="_S5-ycFujEfGrXrqDPBA--Q" source="_-7kjQFuiEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ZmGsMFujEfGrXrqDPBA--Q" target="_OJCzAFujEfGrXrqDPBA--Q" source="_-7kjQFuiEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_fbSW4FujEfGrXrqDPBA--Q" target="_cXMTwFujEfGrXrqDPBA--Q" source="_S5-ycFujEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_hdNyYFujEfGrXrqDPBA--Q" target="_cXMTwFujEfGrXrqDPBA--Q" source="_OJCzAFujEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_idGiEFujEfGrXrqDPBA--Q" target="_1M5egFuiEfGrXrqDPBA--Q" source="_cXMTwFujEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_wirVoFujEfGrXrqDPBA--Q" target="_gaQIQFudEfGrXrqDPBA--Q" source="_1M5egFuiEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_BqvNUFulEfGrXrqDPBA--Q" name="[yes]" target="_1lgoQFuhEfGrXrqDPBA--Q" source="_gsfyAFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_CTTCIFulEfGrXrqDPBA--Q" target="_T6axMFuiEfGrXrqDPBA--Q" source="_1lgoQFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Gx9l0FulEfGrXrqDPBA--Q" target="_intFAFuiEfGrXrqDPBA--Q" source="_T6axMFuiEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VZ-YEFulEfGrXrqDPBA--Q" target="_R9rNIFuhEfGrXrqDPBA--Q" source="_LrfdYFuhEfGrXrqDPBA--Q"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_WM0xUFulEfGrXrqDPBA--Q" target="_gsfyAFuhEfGrXrqDPBA--Q" source="_R9rNIFuhEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_SzmFUFudEfGrXrqDPBA--Q" name="Start" outgoing="_t6RXsFudEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_gaQIQFudEfGrXrqDPBA--Q" name="Read CO2" incoming="_t6RXsFudEfGrXrqDPBA--Q _wirVoFujEfGrXrqDPBA--Q" outgoing="_V5xPQFuhEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_KC6WAFuhEfGrXrqDPBA--Q" name="Send data via LoRa" incoming="_V5xPQFuhEfGrXrqDPBA--Q" outgoing="_Z6jkIFuhEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_LrfdYFuhEfGrXrqDPBA--Q" name="Receive Data" incoming="_Z6jkIFuhEfGrXrqDPBA--Q" outgoing="_VZ-YEFulEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_R9rNIFuhEfGrXrqDPBA--Q" name="Evaluate Threshold" incoming="_VZ-YEFulEfGrXrqDPBA--Q" outgoing="_WM0xUFulEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_gsfyAFuhEfGrXrqDPBA--Q" name="CO2 > 1000 ppm?" incoming="_WM0xUFulEfGrXrqDPBA--Q" outgoing="_A1_okFujEfGrXrqDPBA--Q _BqvNUFulEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_1lgoQFuhEfGrXrqDPBA--Q" name="Fork" incoming="_BqvNUFulEfGrXrqDPBA--Q" outgoing="_Z7WY4FuiEfGrXrqDPBA--Q _ay1agFuiEfGrXrqDPBA--Q _CTTCIFulEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_-UkDEFuhEfGrXrqDPBA--Q" name="Alert dashboard" incoming="_Z7WY4FuiEfGrXrqDPBA--Q" outgoing="_ndtxsFuiEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_QBZRMFuiEfGrXrqDPBA--Q" name="Log Event" incoming="_ay1agFuiEfGrXrqDPBA--Q" outgoing="_oQXWoFuiEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_T6axMFuiEfGrXrqDPBA--Q" name="Send Open Command" incoming="_CTTCIFulEfGrXrqDPBA--Q" outgoing="_Gx9l0FulEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:JoinNode" xmi:id="_intFAFuiEfGrXrqDPBA--Q" name="Join" incoming="_ndtxsFuiEfGrXrqDPBA--Q _oQXWoFuiEfGrXrqDPBA--Q _Gx9l0FulEfGrXrqDPBA--Q" outgoing="_5LA54FuiEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_1M5egFuiEfGrXrqDPBA--Q" name="Wait 10 Minutes" incoming="_5LA54FuiEfGrXrqDPBA--Q _idGiEFujEfGrXrqDPBA--Q" outgoing="_wirVoFujEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_-7kjQFuiEfGrXrqDPBA--Q" name="Fork" incoming="_A1_okFujEfGrXrqDPBA--Q" outgoing="_Y8pfgFujEfGrXrqDPBA--Q _ZmGsMFujEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_OJCzAFujEfGrXrqDPBA--Q" name="Log data" incoming="_ZmGsMFujEfGrXrqDPBA--Q" outgoing="_hdNyYFujEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_S5-ycFujEfGrXrqDPBA--Q" name="Update Dashboard" incoming="_Y8pfgFujEfGrXrqDPBA--Q" outgoing="_fbSW4FujEfGrXrqDPBA--Q"/>
+      <node xmi:type="uml:JoinNode" xmi:id="_cXMTwFujEfGrXrqDPBA--Q" name="Join" incoming="_fbSW4FujEfGrXrqDPBA--Q _hdNyYFujEfGrXrqDPBA--Q" outgoing="_idGiEFujEfGrXrqDPBA--Q"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VXoV4FkMEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VXsnUFkMEfGLuYLK4GuUyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
