@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_VWnCMFkMEfGLuYLK4GuUyA" name="SmartClassroom" visibility="private">
     <ownedComment xmi:type="uml:Comment" xmi:id="_9dRjoFkNEfGLuYLK4GuUyA">
       <body>SmartClassroom SoS&#xD;
@@ -43,52 +43,16 @@
     </packageImport>
     <packagedElement xmi:type="uml:Actor" xmi:id="_GuCkYFkOEfGLuYLK4GuUyA" name="Student"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_IAu7UFkOEfGLuYLK4GuUyA" name="Room Administrator"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_J67-MFkOEfGLuYLK4GuUyA" name="Researcher"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_2SRAgFn0EfGvf9u7S30UQQ" name="ThingsBoard Platform"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_MLXvwFkOEfGLuYLK4GuUyA" name="System Administrator"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_aL65YFkOEfGLuYLK4GuUyA" name="UC1 - Monitor Air Quality"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_eR7sgFkOEfGLuYLK4GuUyA" name="UC2 - Control Windows Automatically"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_oa780FkOEfGLuYLK4GuUyA" name="UC3 - View Real-Time Occupancy"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_o6kfIFkOEfGLuYLK4GuUyA" name="UC4 - Get Occupancy Prediction">
-      <include xmi:type="uml:Include" xmi:id="_mkecgFn1EfGvf9u7S30UQQ" addition="_oa780FkOEfGLuYLK4GuUyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_qu9N4FkOEfGLuYLK4GuUyA" name="UC5 - Manage Smart Classroom Dashboard"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ase8oFn1EfGvf9u7S30UQQ" name="UC6 - Generate Sustainability Metrics"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_EOWZYFkPEfGLuYLK4GuUyA" name="" memberEnd="_EOXnglkPEfGLuYLK4GuUyA _EOYOkFkPEfGLuYLK4GuUyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EOXngFkPEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EOXngVkPEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_EOXnglkPEfGLuYLK4GuUyA" name="uc3 - view real-time occupancy" type="_oa780FkOEfGLuYLK4GuUyA" association="_EOWZYFkPEfGLuYLK4GuUyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_EOYOkFkPEfGLuYLK4GuUyA" name="student" type="_GuCkYFkOEfGLuYLK4GuUyA" association="_EOWZYFkPEfGLuYLK4GuUyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_L2tR4FkPEfGLuYLK4GuUyA" name="" memberEnd="_L2ugAlkPEfGLuYLK4GuUyA _L2vHEFkPEfGLuYLK4GuUyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L2ugAFkPEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L2ugAVkPEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_L2ugAlkPEfGLuYLK4GuUyA" name="uc1 - monitor air quality" type="_aL65YFkOEfGLuYLK4GuUyA" association="_L2tR4FkPEfGLuYLK4GuUyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_L2vHEFkPEfGLuYLK4GuUyA" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_L2tR4FkPEfGLuYLK4GuUyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_QnfgUFkPEfGLuYLK4GuUyA" memberEnd="_Qnh8kFkPEfGLuYLK4GuUyA _Qnh8kVkPEfGLuYLK4GuUyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QnhVgFkPEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QnhVgVkPEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Qnh8kFkPEfGLuYLK4GuUyA" name="uc5 - manage room dashboard" type="_qu9N4FkOEfGLuYLK4GuUyA" association="_QnfgUFkPEfGLuYLK4GuUyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Qnh8kVkPEfGLuYLK4GuUyA" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_QnfgUFkPEfGLuYLK4GuUyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Mc55wFkQEfGLuYLK4GuUyA" name="" memberEnd="_Mc7u8lkQEfGLuYLK4GuUyA _Mc8WAFkQEfGLuYLK4GuUyA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mc7u8FkQEfGLuYLK4GuUyA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mc7u8VkQEfGLuYLK4GuUyA" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Mc7u8lkQEfGLuYLK4GuUyA" name="uc5 - manage room dashboard" type="_qu9N4FkOEfGLuYLK4GuUyA" association="_Mc55wFkQEfGLuYLK4GuUyA"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Mc8WAFkQEfGLuYLK4GuUyA" name="system administrator" type="_MLXvwFkOEfGLuYLK4GuUyA" association="_Mc55wFkQEfGLuYLK4GuUyA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_yQux4Fk9EfGSZbaOQQhbHQ" memberEnd="_yQ4i4Fk9EfGSZbaOQQhbHQ _yQ5J8Fk9EfGSZbaOQQhbHQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yQ3UwFk9EfGSZbaOQQhbHQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yQ370Fk9EfGSZbaOQQhbHQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_yQ4i4Fk9EfGSZbaOQQhbHQ" name="uc4 - get occupancy prediction" type="_o6kfIFkOEfGLuYLK4GuUyA" association="_yQux4Fk9EfGSZbaOQQhbHQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_yQ5J8Fk9EfGSZbaOQQhbHQ" name="" type="_EOWZYFkPEfGLuYLK4GuUyA" association="_yQux4Fk9EfGSZbaOQQhbHQ"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_J67-MFkOEfGLuYLK4GuUyA" name="Sustainability Officer"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_MLXvwFkOEfGLuYLK4GuUyA" name="IT Administrator"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aL65YFkOEfGLuYLK4GuUyA" name="Monitor Air Quality"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eR7sgFkOEfGLuYLK4GuUyA" name="Control Windows Automatically"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oa780FkOEfGLuYLK4GuUyA" name="View Real-Time Occupancy"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_o6kfIFkOEfGLuYLK4GuUyA" name="Get Occupancy Prediction"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qu9N4FkOEfGLuYLK4GuUyA" name="Manage Smart Classroom Dashboard"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8Hk_UFxrEfGmLbDHtKPTZw" name="Override Window Control Manually"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ase8oFn1EfGvf9u7S30UQQ" name="Generate Sustainability Metrics"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mUyocFxrEfGmLbDHtKPTZw" name="View Air Quality Status"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Sx0egFk-EfGSZbaOQQhbHQ" name="SmartClassrom SoS">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_y_pLEFmlEfGSFMt6YkISww" name="location" visibility="public" isUnique="false">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -616,48 +580,6 @@
       </ownedOperation>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_dss_deleteExpiredData" name="deleteExpiredData"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_P1TV4Fn1EfGvf9u7S30UQQ" memberEnd="_P1XnUFn1EfGvf9u7S30UQQ _P1XnUVn1EfGvf9u7S30UQQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P1VyIFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P1WZMFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_P1XnUFn1EfGvf9u7S30UQQ" name="uc6 - generate sustainability metrics" type="_Ase8oFn1EfGvf9u7S30UQQ" association="_P1TV4Fn1EfGvf9u7S30UQQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_P1XnUVn1EfGvf9u7S30UQQ" name="researcher" type="_J67-MFkOEfGLuYLK4GuUyA" association="_P1TV4Fn1EfGvf9u7S30UQQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Sn8coFn1EfGvf9u7S30UQQ" memberEnd="_Sn-44ln1EfGvf9u7S30UQQ _Sn_f8Fn1EfGvf9u7S30UQQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sn-44Fn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Sn-44Vn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Sn-44ln1EfGvf9u7S30UQQ" name="uc4 - get occupancy prediction" type="_o6kfIFkOEfGLuYLK4GuUyA" association="_Sn8coFn1EfGvf9u7S30UQQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Sn_f8Fn1EfGvf9u7S30UQQ" name="researcher" type="_J67-MFkOEfGLuYLK4GuUyA" association="_Sn8coFn1EfGvf9u7S30UQQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Xoj20Fn1EfGvf9u7S30UQQ" memberEnd="_Xom6IVn1EfGvf9u7S30UQQ _XooIQFn1EfGvf9u7S30UQQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XomTEFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xom6IFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Xom6IVn1EfGvf9u7S30UQQ" name="" type="_aL65YFkOEfGLuYLK4GuUyA" association="_Xoj20Fn1EfGvf9u7S30UQQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_XooIQFn1EfGvf9u7S30UQQ" name="thingsboard platform" type="_2SRAgFn0EfGvf9u7S30UQQ" association="_Xoj20Fn1EfGvf9u7S30UQQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_beQWAFn1EfGvf9u7S30UQQ" memberEnd="_beUAYFn1EfGvf9u7S30UQQ _beUncFn1EfGvf9u7S30UQQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_beTZUFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_beTZUVn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_beUAYFn1EfGvf9u7S30UQQ" name="uc2 - automatic window control" type="_eR7sgFkOEfGLuYLK4GuUyA" association="_beQWAFn1EfGvf9u7S30UQQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_beUncFn1EfGvf9u7S30UQQ" type="_Xoj20Fn1EfGvf9u7S30UQQ" association="_beQWAFn1EfGvf9u7S30UQQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_dJZpMFn1EfGvf9u7S30UQQ" memberEnd="_dJcsgVn1EfGvf9u7S30UQQ _dJdTkFn1EfGvf9u7S30UQQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dJcFcFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dJcsgFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_dJcsgVn1EfGvf9u7S30UQQ" name="uc5 - manage room dashboard" type="_qu9N4FkOEfGLuYLK4GuUyA" association="_dJZpMFn1EfGvf9u7S30UQQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_dJdTkFn1EfGvf9u7S30UQQ" type="_beQWAFn1EfGvf9u7S30UQQ" association="_dJZpMFn1EfGvf9u7S30UQQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_gx8dMFn1EfGvf9u7S30UQQ" memberEnd="_gx_ggVn1EfGvf9u7S30UQQ _gyAHkFn1EfGvf9u7S30UQQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gx-5cFn1EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gx_ggFn1EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_gx_ggVn1EfGvf9u7S30UQQ" name="uc6 - generate sustainability metrics" type="_Ase8oFn1EfGvf9u7S30UQQ" association="_gx8dMFn1EfGvf9u7S30UQQ"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_gyAHkFn1EfGvf9u7S30UQQ" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_gx8dMFn1EfGvf9u7S30UQQ"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_S57dIFn4EfGvf9u7S30UQQ" memberEnd="_S57dI1n4EfGvf9u7S30UQQ _S5xFEVn4EfGvf9u7S30UQQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S57dIVn4EfGvf9u7S30UQQ" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S57dIln4EfGvf9u7S30UQQ" key="nature" value="UML_Nature"/>
@@ -802,6 +724,95 @@
       <node xmi:type="uml:CallBehaviorAction" xmi:id="_S5-ycFujEfGrXrqDPBA--Q" name="Update Dashboard" incoming="_Y8pfgFujEfGrXrqDPBA--Q" outgoing="_fbSW4FujEfGrXrqDPBA--Q"/>
       <node xmi:type="uml:JoinNode" xmi:id="_cXMTwFujEfGrXrqDPBA--Q" name="Join" incoming="_fbSW4FujEfGrXrqDPBA--Q _hdNyYFujEfGrXrqDPBA--Q" outgoing="_idGiEFujEfGrXrqDPBA--Q"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6tMbEFxiEfGmLbDHtKPTZw" name="Monitor Air Quality"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GX02MFxjEfGmLbDHtKPTZw" name="Automatic Window Control"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G9GGcFxjEfGmLbDHtKPTZw" name="Occupancy Monitoring"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HJx3kFxjEfGmLbDHtKPTZw" name="Dashboard Management">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_w4pQcFxlEfGmLbDHtKPTZw" name="Functional Requirements"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uI9B8FxjEfGmLbDHtKPTZw" name="Mobile App Response Time"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uQB6UFxjEfGmLbDHtKPTZw" name="Service Availability"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uV8VEFxjEfGmLbDHtKPTZw" name="Actuator Response Time"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ua01EFxjEfGmLbDHtKPTZw" name="Data Retention">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_3zZcEFxlEfGmLbDHtKPTZw" name="Non-Functional Requirements"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Q6nqEFxkEfGmLbDHtKPTZw" name="Indoor Air Quality Sustainability"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RIHTgFxkEfGmLbDHtKPTZw" name="Natural Ventilation Priority"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RlpkEFxkEfGmLbDHtKPTZw" name="Energy Efficiency"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RqQXQFxkEfGmLbDHtKPTZw" name="Space Utilization"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RtkxAFxkEfGmLbDHtKPTZw" name="Data-Driven Sustainability Analytics">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_7XGMUFxlEfGmLbDHtKPTZw" name="Sustainability Requirements">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Z4f18FxiEfGmLbDHtKPTZw" name="Smart Classroom System"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HEg9EFxjEfGmLbDHtKPTZw" name="Occupancy Prediction"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DSaOUFxsEfGmLbDHtKPTZw" name="View Occupancy Information"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NWWYcFxsEfGmLbDHtKPTZw" name="Recieve Notifications"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YHZgMFxsEfGmLbDHtKPTZw" name="Configure Thresholds"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e8izEFxsEfGmLbDHtKPTZw" name="Export Sustainability Report"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lqgf4FxsEfGmLbDHtKPTZw" memberEnd="_lqkxUFxsEfGmLbDHtKPTZw _lqkxUVxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lqkKQFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lqkKQVxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lqkxUFxsEfGmLbDHtKPTZw" name="view air quality status" type="_mUyocFxrEfGmLbDHtKPTZw" association="_lqgf4FxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lqkxUVxsEfGmLbDHtKPTZw" name="student" type="_GuCkYFkOEfGLuYLK4GuUyA" association="_lqgf4FxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nmd2QFxsEfGmLbDHtKPTZw" memberEnd="_nmiHsFxsEfGmLbDHtKPTZw _nmiHsVxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmhgoFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmhgoVxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_nmiHsFxsEfGmLbDHtKPTZw" name="view occupancy information" type="_DSaOUFxsEfGmLbDHtKPTZw" association="_nmd2QFxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_nmiHsVxsEfGmLbDHtKPTZw" type="_GuCkYFkOEfGLuYLK4GuUyA" association="_nmd2QFxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_sEEqAFxsEfGmLbDHtKPTZw" memberEnd="_sEIUYFxsEfGmLbDHtKPTZw _sEIUYVxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sEHtUFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sEHtUVxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sEIUYFxsEfGmLbDHtKPTZw" name="recieve notifications" type="_NWWYcFxsEfGmLbDHtKPTZw" association="_sEEqAFxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_sEIUYVxsEfGmLbDHtKPTZw" type="_GuCkYFkOEfGLuYLK4GuUyA" association="_sEEqAFxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_v4QGQFxsEfGmLbDHtKPTZw" memberEnd="_v4SigVxsEfGmLbDHtKPTZw _v4SiglxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v4R7cFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v4SigFxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_v4SigVxsEfGmLbDHtKPTZw" name="manage smart classroom dashboard" type="_qu9N4FkOEfGLuYLK4GuUyA" association="_v4QGQFxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_v4SiglxsEfGmLbDHtKPTZw" name="room administrator" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_v4QGQFxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_yDvGYFxsEfGmLbDHtKPTZw" memberEnd="_yDywwlxsEfGmLbDHtKPTZw _yDyww1xsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yDywwFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yDywwVxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_yDywwlxsEfGmLbDHtKPTZw" name="view air quality status" type="_mUyocFxrEfGmLbDHtKPTZw" association="_yDvGYFxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_yDyww1xsEfGmLbDHtKPTZw" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_yDvGYFxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0iUosFxsEfGmLbDHtKPTZw" memberEnd="_0iYTEFxsEfGmLbDHtKPTZw _0iYTEVxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0iXsAFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0iXsAVxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_0iYTEFxsEfGmLbDHtKPTZw" name="view occupancy information" type="_DSaOUFxsEfGmLbDHtKPTZw" association="_0iUosFxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_0iYTEVxsEfGmLbDHtKPTZw" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_0iUosFxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_51Zr4FxsEfGmLbDHtKPTZw" memberEnd="_51d9UVxsEfGmLbDHtKPTZw _51ekYFxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_51dWQFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_51d9UFxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_51d9UVxsEfGmLbDHtKPTZw" name="configure thresholds" type="_YHZgMFxsEfGmLbDHtKPTZw" association="_51Zr4FxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_51ekYFxsEfGmLbDHtKPTZw" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_51Zr4FxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-zhywFxsEfGmLbDHtKPTZw" memberEnd="_-zkPAlxsEfGmLbDHtKPTZw _-zk2EFxsEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-zkPAFxsEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-zkPAVxsEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-zkPAlxsEfGmLbDHtKPTZw" name="override window control manually" type="_8Hk_UFxrEfGmLbDHtKPTZw" association="_-zhywFxsEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_-zk2EFxsEfGmLbDHtKPTZw" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_-zhywFxsEfGmLbDHtKPTZw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DkYSoFxtEfGmLbDHtKPTZw" memberEnd="_DkckElxtEfGmLbDHtKPTZw _DkdLIFxtEfGmLbDHtKPTZw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DkckEFxtEfGmLbDHtKPTZw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DkckEVxtEfGmLbDHtKPTZw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DkckElxtEfGmLbDHtKPTZw" name="generate sustainability metrics" type="_Ase8oFn1EfGvf9u7S30UQQ" association="_DkYSoFxtEfGmLbDHtKPTZw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DkdLIFxtEfGmLbDHtKPTZw" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_DkYSoFxtEfGmLbDHtKPTZw"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VXoV4FkMEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VXsnUFkMEfGLuYLK4GuUyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -876,4 +887,22 @@
   <Blocks:Block xmi:id="_DashboardServiceBlock" base_Class="_DashboardServiceClass"/>
   <Blocks:Block xmi:id="_MobileAppBlock" base_Class="_MobileAppClass"/>
   <Blocks:Block xmi:id="_DataStorageBlock" base_Class="_DataStorageClass"/>
+  <Requirements:Requirement xmi:id="_Z5pFcFxiEfGmLbDHtKPTZw" base_NamedElement="_Z4f18FxiEfGmLbDHtKPTZw" id="REQ-00" text="The Smart Classroom shall provide air quality monitoring, automatic window control, occupancy information, prediction services, dashboard management, and sustainability support." base_Class="_Z4f18FxiEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_6tRTkFxiEfGmLbDHtKPTZw" base_NamedElement="_6tMbEFxiEfGmLbDHtKPTZw" id="REQ-01" text="The system shall monitor CO2, temperature, and humidity in the classroom every 10 minutes." base_Class="_6tMbEFxiEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_GX2rYFxjEfGmLbDHtKPTZw" base_NamedElement="_GX02MFxjEfGmLbDHtKPTZw" id="REQ-02" text="The system shall automatically open classroom windows when CO2 exceeds the defined threshold." base_Class="_GX02MFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_G9HUkFxjEfGmLbDHtKPTZw" base_NamedElement="_G9GGcFxjEfGmLbDHtKPTZw" id="REQ-03" text="The system shall provide real-time classroom occupancy based on people counter data." base_Class="_G9GGcFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_HEiyQFxjEfGmLbDHtKPTZw" base_NamedElement="_HEg9EFxjEfGmLbDHtKPTZw" id="REQ-04" text="The system shall predict classroom occupancy using historical occupancy data." base_Class="_HEg9EFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_HJzFsFxjEfGmLbDHtKPTZw" base_NamedElement="_HJx3kFxjEfGmLbDHtKPTZw" id="REQ-05" text="The system shall provide a ThingsBoard dashboard for the room administrator to monitor air quality, occupancy, alerts, and system status." base_Class="_HJx3kFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_uI-QEFxjEfGmLbDHtKPTZw" base_NamedElement="_uI9B8FxjEfGmLbDHtKPTZw" id="REQ-06" text="The student mobile application shall respond to occupancy requests in less than 2 seconds." base_Class="_uI9B8FxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_uQDIcFxjEfGmLbDHtKPTZw" base_NamedElement="_uQB6UFxjEfGmLbDHtKPTZw" id="REQ-07" text="The student mobile services shall provide at least 98% availability." base_Class="_uQB6UFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_uV-KQFxjEfGmLbDHtKPTZw" base_NamedElement="_uV8VEFxjEfGmLbDHtKPTZw" id="REQ-08" text="The system shall activate the window actuator within 10 minutes after a CO2 threshold breach is detected." base_Class="_uV8VEFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_ua1cIFxjEfGmLbDHtKPTZw" base_NamedElement="_ua01EFxjEfGmLbDHtKPTZw" id="REQ-09" text="Sensor and occupancy data shall be stored in the ThingsBoard database for 5 years." base_Class="_ua01EFxjEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_Q6qGUFxkEfGmLbDHtKPTZw" base_NamedElement="_Q6nqEFxkEfGmLbDHtKPTZw" id="REQ-10" text="The system shall support a healthy learning environment by maintaining CO2 concentration below the classroom threshold." base_Class="_Q6nqEFxkEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_RIJIsFxkEfGmLbDHtKPTZw" base_NamedElement="_RIHTgFxkEfGmLbDHtKPTZw" id="REQ-11" text="The system shall prioritize natural ventilation through window opening before using energy-intensive ventilation alternatives." base_Class="_RIHTgFxkEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_RlrZQFxkEfGmLbDHtKPTZw" base_NamedElement="_RlpkEFxkEfGmLbDHtKPTZw" id="REQ-12" text="The system shall reduce unnecessary energy consumption by opening windows only when air quality thresholds are exceeded." base_Class="_RlpkEFxkEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_RqRlYFxkEfGmLbDHtKPTZw" base_NamedElement="_RqQXQFxkEfGmLbDHtKPTZw" id="REQ-13" text="The system shall improve classroom space utilization by providing occupancy information and predictions to students." base_Class="_RqQXQFxkEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_Rtl_IFxkEfGmLbDHtKPTZw" base_NamedElement="_RtkxAFxkEfGmLbDHtKPTZw" id="REQ-14" text="The system shall provide sustainability metrics based on historical air quality and occupancy data." base_Class="_RtkxAFxkEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_w4sTwFxlEfGmLbDHtKPTZw" base_NamedElement="_w4pQcFxlEfGmLbDHtKPTZw" base_Class="_w4pQcFxlEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_3zeUkFxlEfGmLbDHtKPTZw" base_NamedElement="_3zZcEFxlEfGmLbDHtKPTZw" base_Class="_3zZcEFxlEfGmLbDHtKPTZw"/>
+  <Requirements:Requirement xmi:id="_7XIokFxlEfGmLbDHtKPTZw" base_NamedElement="_7XGMUFxlEfGmLbDHtKPTZw" base_Class="_7XGMUFxlEfGmLbDHtKPTZw"/>
 </xmi:XMI>
