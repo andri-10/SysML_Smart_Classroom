@@ -813,6 +813,14 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_DkckElxtEfGmLbDHtKPTZw" name="generate sustainability metrics" type="_Ase8oFn1EfGvf9u7S30UQQ" association="_DkYSoFxtEfGmLbDHtKPTZw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_DkdLIFxtEfGmLbDHtKPTZw" type="_IAu7UFkOEfGLuYLK4GuUyA" association="_DkYSoFxtEfGmLbDHtKPTZw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Td4hUFzCEfGsr9P926G-xQ" name="01_Context_Stakeholders"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cqyVwFzCEfGsr9P926G-xQ" name="02_BlackBox"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c4jE8FzCEfGsr9P926G-xQ" name="03_Requirements"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c9eoQFzCEfGsr9P926G-xQ" name="04_WhiteBox_Physical"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dB4nIFzCEfGsr9P926G-xQ" name="05_WhiteBox_Logical"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dG_JkFzCEfGsr9P926G-xQ" name="06_Allocation"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dLkuoFzCEfGsr9P926G-xQ" name="07_Verification"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dPj2wFzCEfGsr9P926G-xQ" name="08_Sustainability_Profile"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VXoV4FkMEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VXsnUFkMEfGLuYLK4GuUyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>

@@ -254,7 +254,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_mNHFQVkMEfGLuYLK4GuUyA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_mNHFQlkMEfGLuYLK4GuUyA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_mNHFQ1kMEfGLuYLK4GuUyA" diagramKindId="org.eclipse.papyrus.sysml16.diagram.useCase">
-      <owner xmi:type="uml:Model" href="SmartClassroom.uml#_VWnCMFkMEfGLuYLK4GuUyA"/>
+      <owner xmi:type="uml:Package" href="SmartClassroom.uml#_cqyVwFzCEfGsr9P926G-xQ"/>
     </styles>
     <element xmi:type="uml:Model" href="SmartClassroom.uml#_VWnCMFkMEfGLuYLK4GuUyA"/>
     <edges xmi:type="notation:Connector" xmi:id="_lqobsFxsEfGmLbDHtKPTZw" type="Association_Edge" source="_GuEZkFkOEfGLuYLK4GuUyA" target="_0FnUAFxrEfGmLbDHtKPTZw">
@@ -3324,5 +3324,85 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4F5E0FxmEfGmLbDHtKPTZw" id="(0.997229916897507,0.2)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4F5E0VxmEfGmLbDHtKPTZw" id="(0.9831460674157303,0.4)"/>
     </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_19z5MFzCEfGsr9P926G-xQ" type="PapyrusUMLClassDiagram" name="Model Overview" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_m-7CkFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_m-7CklzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_m-7Ck1zDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_m-7ClFzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-7ClVzDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_Td4hUFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m-7CkVzDEfGsr9P926G-xQ" x="300" y="60" height="60"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_m_XugFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_m_YVkFzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_m_YVkVzDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_m_YVklzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_YVk1zDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_cqyVwFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_XugVzDEfGsr9P926G-xQ" x="300" y="140" height="60"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_m_jUsFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_m_j7wFzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_m_j7wVzDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_m_j7wlzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_j7w1zDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_c4jE8FzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_jUsVzDEfGsr9P926G-xQ" x="300" y="220" height="60"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_m_xXIFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_m_xXIlzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_m_xXI1zDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_m_xXJFzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_xXJVzDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_c9eoQFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_xXIVzDEfGsr9P926G-xQ" x="300" y="300" height="61"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nAAnsFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nABOwFzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nABOwVzDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nABOwlzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nABOw1zDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_dB4nIFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAAnsVzDEfGsr9P926G-xQ" x="300" y="380" height="61"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nAXNAFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nAXNAlzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nAX0EFzDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nAX0EVzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAX0ElzDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_dG_JkFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAXNAVzDEfGsr9P926G-xQ" x="300" y="460" height="61"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nAoSwFzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nAoSwlzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nAoSw1zDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nAoSxFzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAoSxVzDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_dLkuoFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAoSwVzDEfGsr9P926G-xQ" x="300" y="540" height="61"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nA8b0FzDEfGsr9P926G-xQ" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nA8b0lzDEfGsr9P926G-xQ" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nA8b01zDEfGsr9P926G-xQ" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nA8b1FzDEfGsr9P926G-xQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nA8b1VzDEfGsr9P926G-xQ"/>
+      </children>
+      <element xmi:type="uml:Package" href="SmartClassroom.uml#_dPj2wFzCEfGsr9P926G-xQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nA8b0VzDEfGsr9P926G-xQ" x="300" y="620" height="61"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_19z5MVzCEfGsr9P926G-xQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_19z5MlzCEfGsr9P926G-xQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_19z5M1zCEfGsr9P926G-xQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.package">
+      <owner xmi:type="uml:Model" href="SmartClassroom.uml#_VWnCMFkMEfGLuYLK4GuUyA"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartClassroom.uml#_VWnCMFkMEfGLuYLK4GuUyA"/>
   </notation:Diagram>
 </xmi:XMI>
