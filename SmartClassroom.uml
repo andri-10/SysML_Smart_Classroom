@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_VWnCMFkMEfGLuYLK4GuUyA" name="SmartClassroom" visibility="private">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_VY_n0FkMEfGLuYLK4GuUyA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -40,10 +40,8 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_Td4hUFzCEfGsr9P926G-xQ" name="01_Context_Stakeholders">
       <packagedElement xmi:type="uml:Class" xmi:id="_IpKTIFzFEfGsr9P926G-xQ" name="Student"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_JjBTUFzFEfGsr9P926G-xQ" name="Room Administrator"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Jn0TwFzFEfGsr9P926G-xQ" name="Researcher"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_J3Fe0FzFEfGsr9P926G-xQ" name="System Administrator"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_J_xgwFzFEfGsr9P926G-xQ" name="ThingsBoard Platform"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_KFegIFzFEfGsr9P926G-xQ" name="University Network"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_KKpUAFzFEfGsr9P926G-xQ" name="Private Cloud"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_pY-_UFzFEfGsr9P926G-xQ" name="requests services / receives notifications" memberEnd="_pZBbkFzFEfGsr9P926G-xQ _pZCCoFzFEfGsr9P926G-xQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pZA0gFzFEfGsr9P926G-xQ" source="org.eclipse.papyrus">
@@ -62,16 +60,6 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_y8NCAFzFEfGsr9P926G-xQ" name="" type="_JjBTUFzFEfGsr9P926G-xQ" association="_y8J-sFzFEfGsr9P926G-xQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_y8PeQFzFEfGsr9P926G-xQ" name="" type="_Sx0egFk-EfGSZbaOQQhbHQ" association="_y8J-sFzFEfGsr9P926G-xQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_1iP3MFzFEfGsr9P926G-xQ" name="requests analytics / receives reports" memberEnd="_1iRFUlzFEfGsr9P926G-xQ _1iRsYFzFEfGsr9P926G-xQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1iRFUFzFEfGsr9P926G-xQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1iRFUVzFEfGsr9P926G-xQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_1iRFUlzFEfGsr9P926G-xQ" name="" type="_Jn0TwFzFEfGsr9P926G-xQ" association="_1iP3MFzFEfGsr9P926G-xQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2UU0YFzFEfGsr9P926G-xQ" name="LiteralInteger1" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2UVbcFzFEfGsr9P926G-xQ" name="LiteralUnlimitedNatural1" value="*"/>
-        </ownedEnd>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_1iRsYFzFEfGsr9P926G-xQ" name="" type="_Sx0egFk-EfGSZbaOQQhbHQ" association="_1iP3MFzFEfGsr9P926G-xQ"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_37XDoFzFEfGsr9P926G-xQ" name="configures and maintains system" memberEnd="_37YRwlzFEfGsr9P926G-xQ _37Zf4FzFEfGsr9P926G-xQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_37YRwFzFEfGsr9P926G-xQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_37YRwVzFEfGsr9P926G-xQ" key="nature" value="UML_Nature"/>
@@ -85,13 +73,6 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_43CBsVzFEfGsr9P926G-xQ" name="" type="_J_xgwFzFEfGsr9P926G-xQ" association="_42_lcFzFEfGsr9P926G-xQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_43D24FzFEfGsr9P926G-xQ" name="" type="_Sx0egFk-EfGSZbaOQQhbHQ" association="_42_lcFzFEfGsr9P926G-xQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_5RrWUFzFEfGsr9P926G-xQ" name="provides connectivity" memberEnd="_5RvAsFzFEfGsr9P926G-xQ _5RwO0FzFEfGsr9P926G-xQ">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5RuZoFzFEfGsr9P926G-xQ" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5RuZoVzFEfGsr9P926G-xQ" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_5RvAsFzFEfGsr9P926G-xQ" name="" type="_KFegIFzFEfGsr9P926G-xQ" association="_5RrWUFzFEfGsr9P926G-xQ"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_5RwO0FzFEfGsr9P926G-xQ" name="" type="_Sx0egFk-EfGSZbaOQQhbHQ" association="_5RrWUFzFEfGsr9P926G-xQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_5t-QwFzFEfGsr9P926G-xQ" name="hosts and processes services" memberEnd="_5uBUEFzFEfGsr9P926G-xQ _5uDwUFzFEfGsr9P926G-xQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5uAtAFzFEfGsr9P926G-xQ" source="org.eclipse.papyrus">
@@ -743,7 +724,21 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_FwS-UVoBEfGML5WOtF-fjw" name="" type="_Sx0egFk-EfGSZbaOQQhbHQ" association="_FwP7AFoBEfGML5WOtF-fjw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Activity" xmi:id="_RUb_sFudEfGrXrqDPBA--Q" name="Air Quality Monitoring" node="_KC6WAFuhEfGrXrqDPBA--Q _R9rNIFuhEfGrXrqDPBA--Q _gsfyAFuhEfGrXrqDPBA--Q _1lgoQFuhEfGrXrqDPBA--Q _-UkDEFuhEfGrXrqDPBA--Q _QBZRMFuiEfGrXrqDPBA--Q _T6axMFuiEfGrXrqDPBA--Q _intFAFuiEfGrXrqDPBA--Q _1M5egFuiEfGrXrqDPBA--Q _-7kjQFuiEfGrXrqDPBA--Q _OJCzAFujEfGrXrqDPBA--Q _S5-ycFujEfGrXrqDPBA--Q _cXMTwFujEfGrXrqDPBA--Q _so6a0FzMEfGsr9P926G-xQ _S4la4FzNEfGsr9P926G-xQ _YX8mkFzNEfGsr9P926G-xQ">
+      <packagedElement xmi:type="uml:Activity" xmi:id="_RUb_sFudEfGrXrqDPBA--Q" name="Air Quality Monitoring" node="_KC6WAFuhEfGrXrqDPBA--Q _R9rNIFuhEfGrXrqDPBA--Q _gsfyAFuhEfGrXrqDPBA--Q _1lgoQFuhEfGrXrqDPBA--Q _-UkDEFuhEfGrXrqDPBA--Q _QBZRMFuiEfGrXrqDPBA--Q _T6axMFuiEfGrXrqDPBA--Q _intFAFuiEfGrXrqDPBA--Q _1M5egFuiEfGrXrqDPBA--Q _-7kjQFuiEfGrXrqDPBA--Q _OJCzAFujEfGrXrqDPBA--Q _S5-ycFujEfGrXrqDPBA--Q _cXMTwFujEfGrXrqDPBA--Q _so6a0FzMEfGsr9P926G-xQ _S4la4FzNEfGsr9P926G-xQ _YX8mkFzNEfGsr9P926G-xQ _IQ1IoF33EfGrcZtOh5z_gg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_HfKQkF32EfGrcZtOh5z_gg" annotatedElement="_KC6WAFuhEfGrXrqDPBA--Q">
+          <body>Environmental Sensors</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_hJIUYF32EfGrcZtOh5z_gg" annotatedElement="_R9rNIFuhEfGrXrqDPBA--Q _S5-ycFujEfGrXrqDPBA--Q _OJCzAFujEfGrXrqDPBA--Q _RUb_sFudEfGrXrqDPBA--Q">
+          <body>ThingsBoard&#xD;
+Platform</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_q7MrYF32EfGrcZtOh5z_gg" annotatedElement="_-UkDEFuhEfGrXrqDPBA--Q _T6axMFuiEfGrXrqDPBA--Q">
+          <body>ThingsBoard&#xD;
+Platform</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_glPHsF33EfGrcZtOh5z_gg" annotatedElement="_IQ1IoF33EfGrcZtOh5z_gg">
+          <body>Window Actuator</body>
+        </ownedComment>
         <edge xmi:type="uml:ControlFlow" xmi:id="_Z7WY4FuiEfGrXrqDPBA--Q" target="_-UkDEFuhEfGrXrqDPBA--Q" source="_1lgoQFuhEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_ay1agFuiEfGrXrqDPBA--Q" target="_QBZRMFuiEfGrXrqDPBA--Q" source="_1lgoQFuhEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_ndtxsFuiEfGrXrqDPBA--Q" target="_intFAFuiEfGrXrqDPBA--Q" source="_-UkDEFuhEfGrXrqDPBA--Q"/>
@@ -757,13 +752,14 @@
         <edge xmi:type="uml:ControlFlow" xmi:id="_idGiEFujEfGrXrqDPBA--Q" target="_1M5egFuiEfGrXrqDPBA--Q" source="_cXMTwFujEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_BqvNUFulEfGrXrqDPBA--Q" name="[yes]" target="_1lgoQFuhEfGrXrqDPBA--Q" source="_gsfyAFuhEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_CTTCIFulEfGrXrqDPBA--Q" target="_T6axMFuiEfGrXrqDPBA--Q" source="_1lgoQFuhEfGrXrqDPBA--Q"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_Gx9l0FulEfGrXrqDPBA--Q" target="_intFAFuiEfGrXrqDPBA--Q" source="_T6axMFuiEfGrXrqDPBA--Q"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_Gx9l0FulEfGrXrqDPBA--Q" target="_IQ1IoF33EfGrcZtOh5z_gg" source="_T6axMFuiEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_WM0xUFulEfGrXrqDPBA--Q" target="_gsfyAFuhEfGrXrqDPBA--Q" source="_R9rNIFuhEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_iED8AFzMEfGsr9P926G-xQ" target="_R9rNIFuhEfGrXrqDPBA--Q" source="_KC6WAFuhEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_UL3nsFzNEfGsr9P926G-xQ" target="_KC6WAFuhEfGrXrqDPBA--Q" source="_S4la4FzNEfGsr9P926G-xQ"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_dK9poFzNEfGsr9P926G-xQ" target="_YX8mkFzNEfGsr9P926G-xQ" source="_1M5egFuiEfGrXrqDPBA--Q"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_mzkioFzNEfGsr9P926G-xQ" name="[no]" target="_so6a0FzMEfGsr9P926G-xQ" source="_YX8mkFzNEfGsr9P926G-xQ"/>
         <edge xmi:type="uml:ControlFlow" xmi:id="_qS8MgFzNEfGsr9P926G-xQ" name="[yes]" target="_KC6WAFuhEfGrXrqDPBA--Q" source="_YX8mkFzNEfGsr9P926G-xQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_ZocUsF33EfGrcZtOh5z_gg" target="_intFAFuiEfGrXrqDPBA--Q" source="_IQ1IoF33EfGrcZtOh5z_gg"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_KC6WAFuhEfGrXrqDPBA--Q" name="Collect Sensor Data" incoming="_UL3nsFzNEfGsr9P926G-xQ _qS8MgFzNEfGsr9P926G-xQ" outgoing="_iED8AFzMEfGsr9P926G-xQ"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_R9rNIFuhEfGrXrqDPBA--Q" name="Evaluate Threshold" incoming="_iED8AFzMEfGsr9P926G-xQ" outgoing="_WM0xUFulEfGrXrqDPBA--Q"/>
         <node xmi:type="uml:DecisionNode" xmi:id="_gsfyAFuhEfGrXrqDPBA--Q" name="CO2 > 1000 ppm  || Temp > 26°C ?" incoming="_WM0xUFulEfGrXrqDPBA--Q" outgoing="_A1_okFujEfGrXrqDPBA--Q _BqvNUFulEfGrXrqDPBA--Q"/>
@@ -771,7 +767,7 @@
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_-UkDEFuhEfGrXrqDPBA--Q" name="Alert dashboard" incoming="_Z7WY4FuiEfGrXrqDPBA--Q" outgoing="_ndtxsFuiEfGrXrqDPBA--Q"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_QBZRMFuiEfGrXrqDPBA--Q" name="Log Event" incoming="_ay1agFuiEfGrXrqDPBA--Q" outgoing="_oQXWoFuiEfGrXrqDPBA--Q"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_T6axMFuiEfGrXrqDPBA--Q" name="Send Open Command" incoming="_CTTCIFulEfGrXrqDPBA--Q" outgoing="_Gx9l0FulEfGrXrqDPBA--Q"/>
-        <node xmi:type="uml:JoinNode" xmi:id="_intFAFuiEfGrXrqDPBA--Q" name="Join" incoming="_ndtxsFuiEfGrXrqDPBA--Q _oQXWoFuiEfGrXrqDPBA--Q _Gx9l0FulEfGrXrqDPBA--Q" outgoing="_5LA54FuiEfGrXrqDPBA--Q"/>
+        <node xmi:type="uml:JoinNode" xmi:id="_intFAFuiEfGrXrqDPBA--Q" name="Join" incoming="_ndtxsFuiEfGrXrqDPBA--Q _oQXWoFuiEfGrXrqDPBA--Q _ZocUsF33EfGrcZtOh5z_gg" outgoing="_5LA54FuiEfGrXrqDPBA--Q"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_1M5egFuiEfGrXrqDPBA--Q" name="Wait 10 Minutes" incoming="_5LA54FuiEfGrXrqDPBA--Q _idGiEFujEfGrXrqDPBA--Q" outgoing="_dK9poFzNEfGsr9P926G-xQ"/>
         <node xmi:type="uml:ForkNode" xmi:id="_-7kjQFuiEfGrXrqDPBA--Q" name="Fork" incoming="_A1_okFujEfGrXrqDPBA--Q" outgoing="_Y8pfgFujEfGrXrqDPBA--Q _ZmGsMFujEfGrXrqDPBA--Q"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_OJCzAFujEfGrXrqDPBA--Q" name="Log data" incoming="_ZmGsMFujEfGrXrqDPBA--Q" outgoing="_hdNyYFujEfGrXrqDPBA--Q"/>
@@ -780,10 +776,74 @@
         <node xmi:type="uml:ActivityFinalNode" xmi:id="_so6a0FzMEfGsr9P926G-xQ" name="Activity Final Node" incoming="_mzkioFzNEfGsr9P926G-xQ"/>
         <node xmi:type="uml:InitialNode" xmi:id="_S4la4FzNEfGsr9P926G-xQ" name="Initial Node" outgoing="_UL3nsFzNEfGsr9P926G-xQ"/>
         <node xmi:type="uml:DecisionNode" xmi:id="_YX8mkFzNEfGsr9P926G-xQ" name="System Active?" incoming="_dK9poFzNEfGsr9P926G-xQ" outgoing="_mzkioFzNEfGsr9P926G-xQ _qS8MgFzNEfGsr9P926G-xQ"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_IQ1IoF33EfGrcZtOh5z_gg" name="Open Window" incoming="_Gx9l0FulEfGrXrqDPBA--Q" outgoing="_ZocUsF33EfGrcZtOh5z_gg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Activity" xmi:id="_rgiVgF0kEfGX9bjvf738_g" name="Real Time Occupancy" node="_7f0csF0kEfGX9bjvf738_g _MnB1QF0lEfGX9bjvf738_g __XuF4F0lEfGX9bjvf738_g _G_70cF0mEfGX9bjvf738_g _OitCUF0mEfGX9bjvf738_g _8QahQF0mEfGX9bjvf738_g _GjproF0nEfGX9bjvf738_g _U9uvkF0nEfGX9bjvf738_g _wrAH4F0nEfGX9bjvf738_g">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_SdpsgF34EfGrcZtOh5z_gg" annotatedElement="_7f0csF0kEfGX9bjvf738_g">
+          <body>People &#xD;
+Counter</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_XF3NwF34EfGrcZtOh5z_gg" annotatedElement="_8QahQF0mEfGX9bjvf738_g __XuF4F0lEfGX9bjvf738_g">
+          <body>ThingsBoard&#xD;
+Platform</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_mJioUF34EfGrcZtOh5z_gg" annotatedElement="_G_70cF0mEfGX9bjvf738_g">
+          <body>Private Cloud &#xD;
+(Mobile Application)</body>
+        </ownedComment>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_C4uugF0mEfGX9bjvf738_g" target="__XuF4F0lEfGX9bjvf738_g" source="_MnB1QF0lEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_KIjLMF0mEfGX9bjvf738_g" target="_G_70cF0mEfGX9bjvf738_g" source="_MnB1QF0lEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_SJwokF0mEfGX9bjvf738_g" target="_OitCUF0mEfGX9bjvf738_g" source="__XuF4F0lEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_XBE80F0mEfGX9bjvf738_g" target="_OitCUF0mEfGX9bjvf738_g" source="_G_70cF0mEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="__F12QF0mEfGX9bjvf738_g" target="_8QahQF0mEfGX9bjvf738_g" source="_7f0csF0kEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_CNHwQF0nEfGX9bjvf738_g" target="_MnB1QF0lEfGX9bjvf738_g" source="_8QahQF0mEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_Me0pkF0nEfGX9bjvf738_g" target="_GjproF0nEfGX9bjvf738_g" source="_OitCUF0mEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_XF25sF0nEfGX9bjvf738_g" target="_7f0csF0kEfGX9bjvf738_g" source="_U9uvkF0nEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_iQAd8F0nEfGX9bjvf738_g" name="[no]" target="_7f0csF0kEfGX9bjvf738_g" source="_GjproF0nEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_ye-m8F0nEfGX9bjvf738_g" name="[yes]" target="_wrAH4F0nEfGX9bjvf738_g" source="_GjproF0nEfGX9bjvf738_g"/>
+        <node xmi:type="uml:AcceptEventAction" xmi:id="_7f0csF0kEfGX9bjvf738_g" name="Detect Occupancy Change" incoming="_XF25sF0nEfGX9bjvf738_g _iQAd8F0nEfGX9bjvf738_g" outgoing="__F12QF0mEfGX9bjvf738_g"/>
+        <node xmi:type="uml:ForkNode" xmi:id="_MnB1QF0lEfGX9bjvf738_g" name="ForkNode" incoming="_CNHwQF0nEfGX9bjvf738_g" outgoing="_C4uugF0mEfGX9bjvf738_g _KIjLMF0mEfGX9bjvf738_g"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="__XuF4F0lEfGX9bjvf738_g" name="Update Dashboard" incoming="_C4uugF0mEfGX9bjvf738_g" outgoing="_SJwokF0mEfGX9bjvf738_g"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_G_70cF0mEfGX9bjvf738_g" name="Notify Student App" incoming="_KIjLMF0mEfGX9bjvf738_g" outgoing="_XBE80F0mEfGX9bjvf738_g"/>
+        <node xmi:type="uml:JoinNode" xmi:id="_OitCUF0mEfGX9bjvf738_g" name="JoinNode" incoming="_SJwokF0mEfGX9bjvf738_g _XBE80F0mEfGX9bjvf738_g" outgoing="_Me0pkF0nEfGX9bjvf738_g"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_8QahQF0mEfGX9bjvf738_g" name="Update Occupancy Count" incoming="__F12QF0mEfGX9bjvf738_g" outgoing="_CNHwQF0nEfGX9bjvf738_g"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_GjproF0nEfGX9bjvf738_g" name="System Shutdown ?" incoming="_Me0pkF0nEfGX9bjvf738_g" outgoing="_iQAd8F0nEfGX9bjvf738_g _ye-m8F0nEfGX9bjvf738_g"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_U9uvkF0nEfGX9bjvf738_g" name="InitialNode" outgoing="_XF25sF0nEfGX9bjvf738_g"/>
+        <node xmi:type="uml:ActivityFinalNode" xmi:id="_wrAH4F0nEfGX9bjvf738_g" name="ActivityFinalNode" incoming="_ye-m8F0nEfGX9bjvf738_g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Activity" xmi:id="_RZG80F0oEfGX9bjvf738_g" name="Occupancy Prediction " node="_cnruEF0oEfGX9bjvf738_g _esvWEF0oEfGX9bjvf738_g _h69lkF0oEfGX9bjvf738_g _kIQjkF0oEfGX9bjvf738_g _oT6EoF0oEfGX9bjvf738_g _rRHcoF0oEfGX9bjvf738_g _uSXnIF0oEfGX9bjvf738_g">
+        <ownedComment xmi:type="uml:Comment" xmi:id="__FxcYF34EfGrcZtOh5z_gg" annotatedElement="_esvWEF0oEfGX9bjvf738_g">
+          <body>Student &#xD;
+(Mobile Application)</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_HfVvYF35EfGrcZtOh5z_gg" annotatedElement="_h69lkF0oEfGX9bjvf738_g">
+          <body>ThingsBoard&#xD;
+Platform</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_OJ8mMF35EfGrcZtOh5z_gg" annotatedElement="_kIQjkF0oEfGX9bjvf738_g _oT6EoF0oEfGX9bjvf738_g">
+          <body>Private Cloud&#xD;
+(Mobile Application)</body>
+        </ownedComment>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_wwWFcF0oEfGX9bjvf738_g" target="_esvWEF0oEfGX9bjvf738_g" source="_cnruEF0oEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_0F5sAF0oEfGX9bjvf738_g" target="_h69lkF0oEfGX9bjvf738_g" source="_esvWEF0oEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_3JMd4F0oEfGX9bjvf738_g" target="_kIQjkF0oEfGX9bjvf738_g" source="_h69lkF0oEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_7DIj4F0oEfGX9bjvf738_g" target="_oT6EoF0oEfGX9bjvf738_g" source="_kIQjkF0oEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_9WUHcF0oEfGX9bjvf738_g" target="_rRHcoF0oEfGX9bjvf738_g" source="_oT6EoF0oEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_BySjgF0pEfGX9bjvf738_g" name="[no]" target="_esvWEF0oEfGX9bjvf738_g" source="_rRHcoF0oEfGX9bjvf738_g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_GRWv0F0pEfGX9bjvf738_g" name="[yes]" target="_uSXnIF0oEfGX9bjvf738_g" source="_rRHcoF0oEfGX9bjvf738_g"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_cnruEF0oEfGX9bjvf738_g" name="InitialNode" outgoing="_wwWFcF0oEfGX9bjvf738_g"/>
+        <node xmi:type="uml:AcceptEventAction" xmi:id="_esvWEF0oEfGX9bjvf738_g" name="Student Requests Prediction" incoming="_wwWFcF0oEfGX9bjvf738_g _BySjgF0pEfGX9bjvf738_g" outgoing="_0F5sAF0oEfGX9bjvf738_g"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_h69lkF0oEfGX9bjvf738_g" name="Retrieve Historical Data" incoming="_0F5sAF0oEfGX9bjvf738_g" outgoing="_3JMd4F0oEfGX9bjvf738_g"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_kIQjkF0oEfGX9bjvf738_g" name="Compute Occupancy Prediction" incoming="_3JMd4F0oEfGX9bjvf738_g" outgoing="_7DIj4F0oEfGX9bjvf738_g"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_oT6EoF0oEfGX9bjvf738_g" name="Send Prediction to Student" incoming="_7DIj4F0oEfGX9bjvf738_g" outgoing="_9WUHcF0oEfGX9bjvf738_g"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_rRHcoF0oEfGX9bjvf738_g" name="System Shutdown?" incoming="_9WUHcF0oEfGX9bjvf738_g" outgoing="_BySjgF0pEfGX9bjvf738_g _GRWv0F0pEfGX9bjvf738_g"/>
+        <node xmi:type="uml:ActivityFinalNode" xmi:id="_uSXnIF0oEfGX9bjvf738_g" name="ActivityFinalNode" incoming="_GRWv0F0pEfGX9bjvf738_g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_1U53YFzIEfGsr9P926G-xQ" name="System Administrator"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_3gflMFzIEfGsr9P926G-xQ" name="Student"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_4AOOIFzIEfGsr9P926G-xQ" name="Room Administrator"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_YCHLYFzLEfGsr9P926G-xQ" name="Private Cloud"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_6mWQ8FzKEfGsr9P926G-xQ" name="ThingsBoard Platform"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_YHLHAFzKEfGsr9P926G-xQ" name="UC1 - Monitor Air Quality"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_aOtbQFzKEfGsr9P926G-xQ" name="UC2 - Open Windows Automatically">
         <include xmi:type="uml:Include" xmi:id="_cX78IFzLEfGsr9P926G-xQ" addition="_YHLHAFzKEfGsr9P926G-xQ"/>
@@ -793,7 +853,6 @@
         <include xmi:type="uml:Include" xmi:id="_g7hcEFzLEfGsr9P926G-xQ" addition="_jX2KAFzKEfGsr9P926G-xQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_2nwUcFzKEfGsr9P926G-xQ" name="UC5 - Manage Dashboard"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_6mWQ8FzKEfGsr9P926G-xQ" name="ThingsBoard Platform"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_8oB00FzKEfGsr9P926G-xQ" memberEnd="_8oGtUlzKEfGsr9P926G-xQ _8oHUYFzKEfGsr9P926G-xQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8oGtUFzKEfGsr9P926G-xQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8oGtUVzKEfGsr9P926G-xQ" key="nature" value="UML_Nature"/>
@@ -864,7 +923,6 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_RcrvgFzLEfGsr9P926G-xQ" name="uc5 - manage dashboard" type="_2nwUcFzKEfGsr9P926G-xQ" association="_RckawFzLEfGsr9P926G-xQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_RcrvgVzLEfGsr9P926G-xQ" type="_6mWQ8FzKEfGsr9P926G-xQ" association="_RckawFzLEfGsr9P926G-xQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_YCHLYFzLEfGsr9P926G-xQ" name="Private Cloud"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_aDyvQFzLEfGsr9P926G-xQ" memberEnd="_aD414lzLEfGsr9P926G-xQ _aD5c8FzLEfGsr9P926G-xQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aD414FzLEfGsr9P926G-xQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aD414VzLEfGsr9P926G-xQ" key="nature" value="UML_Nature"/>
@@ -896,12 +954,12 @@
         </nestedClassifier>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_HEg9EFxjEfGmLbDHtKPTZw" name="Occupancy Prediction"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_2mmCgF2pEfGw9MSo_Zk2hA" name="Satisfy15" client="_RIHTgFxkEfGmLbDHtKPTZw" supplier="_zer2YF2pEfGw9MSo_Zk2hA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_c9eoQFzCEfGsr9P926G-xQ" name="04_WhiteBox_Physical"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_dB4nIFzCEfGsr9P926G-xQ" name="05_WhiteBox_Logical"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_dG_JkFzCEfGsr9P926G-xQ" name="06_Allocation"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_dLkuoFzCEfGsr9P926G-xQ" name="07_Verification"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_dPj2wFzCEfGsr9P926G-xQ" name="08_Sustainability_Profile"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dLkuoFzCEfGsr9P926G-xQ" name="06_Verification"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_zer2YF2pEfGw9MSo_Zk2hA" name="Room Administrator"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VXoV4FkMEfGLuYLK4GuUyA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VXsnUFkMEfGLuYLK4GuUyA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -996,9 +1054,9 @@
   <Requirements:Requirement xmi:id="_7XIokFxlEfGmLbDHtKPTZw" base_NamedElement="_7XGMUFxlEfGmLbDHtKPTZw" base_Class="_7XGMUFxlEfGmLbDHtKPTZw"/>
   <Blocks:Block xmi:id="_IpSO8FzFEfGsr9P926G-xQ" base_Class="_IpKTIFzFEfGsr9P926G-xQ"/>
   <Blocks:Block xmi:id="_JjDvkFzFEfGsr9P926G-xQ" base_Class="_JjBTUFzFEfGsr9P926G-xQ"/>
-  <Blocks:Block xmi:id="_Jn2wAFzFEfGsr9P926G-xQ" base_Class="_Jn0TwFzFEfGsr9P926G-xQ"/>
   <Blocks:Block xmi:id="_J3Gs8FzFEfGsr9P926G-xQ" base_Class="_J3Fe0FzFEfGsr9P926G-xQ"/>
   <Blocks:Block xmi:id="_J_yu4FzFEfGsr9P926G-xQ" base_Class="_J_xgwFzFEfGsr9P926G-xQ"/>
-  <Blocks:Block xmi:id="_KFgVUFzFEfGsr9P926G-xQ" base_Class="_KFegIFzFEfGsr9P926G-xQ"/>
   <Blocks:Block xmi:id="_KKp7EFzFEfGsr9P926G-xQ" base_Class="_KKpUAFzFEfGsr9P926G-xQ"/>
+  <ModelElements:Stakeholder xmi:id="_zfd5gF2pEfGw9MSo_Zk2hA" base_Classifier="_zer2YF2pEfGw9MSo_Zk2hA"/>
+  <Requirements:Satisfy xmi:id="_2mulYF2pEfGw9MSo_Zk2hA" base_DirectedRelationship="_2mmCgF2pEfGw9MSo_Zk2hA" base_Abstraction="_2mmCgF2pEfGw9MSo_Zk2hA"/>
 </xmi:XMI>
