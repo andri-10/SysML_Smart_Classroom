@@ -19,4 +19,5 @@
   <contexts name="UML" appliedByDefault="true"/>
   <contexts name="UMLNotation" appliedByDefault="true"/>
   <contexts name="SysML 1.6"/>
+  <contexts name="RequirementsExtension"/>
 </pref:Preferences>

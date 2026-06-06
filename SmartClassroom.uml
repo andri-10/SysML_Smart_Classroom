@@ -235,6 +235,7 @@ IBD - Architecture Flow&#xD;
         <ownedAttribute xmi:type="uml:Property" xmi:id="_8cYe0FlDEfGSZbaOQQhbHQ" name="sampleRate" visibility="public" isUnique="false">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_YFC3gGGVEfGhgMMT1QFjog" name="dataOut" visibility="package" type="_VrVCQFk-EfGSZbaOQQhbHQ" aggregation="composite"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_TBr3wFlEEfGSZbaOQQhbHQ" name="readCO2">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_jkMn0FlEEfGSZbaOQQhbHQ" name="" visibility="public" isUnique="false" direction="return" effect="create">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
@@ -268,6 +269,7 @@ IBD - Architecture Flow&#xD;
         <ownedAttribute xmi:type="uml:Property" xmi:id="_J-UScFlHEfGTZqrw6LyJ9w" name="location" visibility="public">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_tLadMGGpEfG9_6ylTxWvvg" name="dataOut" type="_ebxkMFk-EfGSZbaOQQhbHQ" aggregation="composite"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_SVhN8FlHEfGTZqrw6LyJ9w" name="detectEntry"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_ZjxkYFlHEfGTZqrw6LyJ9w" name="detectExit"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_c35AgFlHEfGTZqrw6LyJ9w" name="getCurrentCount">
@@ -295,6 +297,7 @@ IBD - Architecture Flow&#xD;
         <ownedAttribute xmi:type="uml:Property" xmi:id="_1eNjcFmeEfGSFMt6YkISww" name="errorState" visibility="public" isUnique="false">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_r7ROgGGqEfG9_6ylTxWvvg" name="commandIn" type="_hFsMwFk-EfGSZbaOQQhbHQ" aggregation="composite"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_-rz7cFmeEfGSFMt6YkISww" name="open"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_CsN10FmfEfGSFMt6YkISww" name="close"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_ExRd0FmfEfGSFMt6YkISww" name="getState">
@@ -320,6 +323,8 @@ IBD - Architecture Flow&#xD;
         <ownedAttribute xmi:type="uml:Property" xmi:id="_gjQ-EFmfEfGSFMt6YkISww" name="signalStrength" visibility="public" isUnique="false">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_826swGGpEfG9_6ylTxWvvg" name="dataIn" type="_iiVJ4Fk-EfGSZbaOQQhbHQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_JmcTYGGqEfG9_6ylTxWvvg" name="dataOut" type="_iiVJ4Fk-EfGSZbaOQQhbHQ" aggregation="composite"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_hKZPgFmfEfGSFMt6YkISww" name="forwardData">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_zNDjsFmfEfGSFMt6YkISww" name="payload" visibility="public" isUnique="false" effect="create">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -357,6 +362,9 @@ IBD - Architecture Flow&#xD;
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N7WwsFoAEfGML5WOtF-fjw" name="LiteralInteger1" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N7XXwFoAEfGML5WOtF-fjw" name="LiteralUnlimitedNatural1" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_QC9q4GGqEfG9_6ylTxWvvg" name="dataIn" type="_kDhP0Fk-EfGSZbaOQQhbHQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Qith8GGqEfG9_6ylTxWvvg" name="cmdOut" type="_kDhP0Fk-EfGSZbaOQQhbHQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Wlb5YGGqEfG9_6ylTxWvvg" name="serviceOut" type="_kDhP0Fk-EfGSZbaOQQhbHQ" aggregation="composite"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_PPq54FmgEfGSFMt6YkISww" name="storeData">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ah8rwFmhEfGSFMt6YkISww" name="data" visibility="public" effect="create">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -619,6 +627,7 @@ IBD - Architecture Flow&#xD;
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ma_userRole_lower" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ma_userRole_upper" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_6VSoEGGqEfG9_6ylTxWvvg" name="notifIn" type="_MobileAppClass" aggregation="composite"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_ma_requestCurrentOccupancy" name="requestCurrentOccupancy">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_ma_requestCurrentOccupancy_ret" name="" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -1051,6 +1060,18 @@ IBD - WhiteBox</body>
         <ownedEnd xmi:type="uml:Property" xmi:id="_WdSOAF38EfGrcZtOh5z_gg" name="thingsboard server" type="_kDhP0Fk-EfGSZbaOQQhbHQ" association="_WdJEEF38EfGrcZtOh5z_gg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_IKrJsGGOEfGF4KdJ_nnczw" name="SmartClassroom SoS">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_RlYDYGGrEfG9_6ylTxWvvg">
+          <body>Physical Layer&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_YcBLEGGrEfG9_6ylTxWvvg">
+          <body>Service Layer&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_q6rewGGrEfG9_6ylTxWvvg">
+          <body>App Layer&#xD;
+</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_bU7_IGGOEfGF4KdJ_nnczw" name="environmental Sensor" type="_VrVCQFk-EfGSZbaOQQhbHQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_dBH0IGGOEfGF4KdJ_nnczw" name="people Counter" type="_ebxkMFk-EfGSZbaOQQhbHQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_dvVlAGGOEfGF4KdJ_nnczw" name="window Actuator" type="_hFsMwFk-EfGSZbaOQQhbHQ"/>
@@ -1063,37 +1084,39 @@ IBD - WhiteBox</body>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_nLKmQGGOEfGF4KdJ_nnczw" name="notification Service" type="_ozg4MFn7EfGvf9u7S30UQQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_qzohwGGOEfGF4KdJ_nnczw" name="private Cloud" type="_lpw04Fk-EfGSZbaOQQhbHQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_rmPqcGGOEfGF4KdJ_nnczw" name="mobile Application" type="_MobileAppClass"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_XfzsYGGpEfG9_6ylTxWvvg" name="environmental Sensor" type="_VrVCQFk-EfGSZbaOQQhbHQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Yo5bYGGpEfG9_6ylTxWvvg" name="people Counter" type="_ebxkMFk-EfGSZbaOQQhbHQ"/>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_wru9kGGOEfGF4KdJ_nnczw" name="CO2 / Temp / Humidity readings">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_wryn8GGOEfGF4KdJ_nnczw" role="_bU7_IGGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_wryn8WGOEfGF4KdJ_nnczw" role="_eXS84GGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_wryn8GGOEfGF4KdJ_nnczw" partWithPort="_bU7_IGGOEfGF4KdJ_nnczw" role="_YFC3gGGVEfGhgMMT1QFjog"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_wryn8WGOEfGF4KdJ_nnczw" partWithPort="_eXS84GGOEfGF4KdJ_nnczw" role="_826swGGpEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_xtkOAGGOEfGF4KdJ_nnczw" name="entry / exit count">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_xtmDMGGOEfGF4KdJ_nnczw" role="_dBH0IGGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_xtmqQGGOEfGF4KdJ_nnczw" role="_eXS84GGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_xtmDMGGOEfGF4KdJ_nnczw" partWithPort="_dBH0IGGOEfGF4KdJ_nnczw" role="_tLadMGGpEfG9_6ylTxWvvg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_xtmqQGGOEfGF4KdJ_nnczw" partWithPort="_eXS84GGOEfGF4KdJ_nnczw" role="_826swGGpEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_8O2bcGGOEfGF4KdJ_nnczw" name="forwarded sensor data">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_8O3pkGGOEfGF4KdJ_nnczw" role="_eXS84GGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_8O3pkWGOEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8O3pkGGOEfGF4KdJ_nnczw" partWithPort="_eXS84GGOEfGF4KdJ_nnczw" role="_JmcTYGGqEfG9_6ylTxWvvg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8O3pkWGOEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_QC9q4GGqEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_CZicEGGPEfGF4KdJ_nnczw" name="sensor data (store)">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_CZmGcGGPEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_CZmGcGGPEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_Wlb5YGGqEfG9_6ylTxWvvg"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_CZmGcWGPEfGF4KdJ_nnczw" role="_mMNqsGGOEfGF4KdJ_nnczw"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_GmF8EGGPEfGF4KdJ_nnczw" name="sensor data (evaluate) / threshold breach event">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_GmIYUGGPEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_GmIYUGGPEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_Wlb5YGGqEfG9_6ylTxWvvg"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_GmIYUWGPEfGF4KdJ_nnczw" role="_hjkroGGOEfGF4KdJ_nnczw"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_L6XSEGGPEfGF4KdJ_nnczw" name="occupancy data">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_L6ZuUGGPEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_L6ZuUGGPEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_Wlb5YGGqEfG9_6ylTxWvvg"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_L6ZuUWGPEfGF4KdJ_nnczw" role="_jRsaUGGOEfGF4KdJ_nnczw"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_PSRpEGGPEfGF4KdJ_nnczw" name="alerts + readings / dashboard update">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_PSUFUGGPEfGF4KdJ_nnczw" role="_kzlq4GGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_PSUFUWGPEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_PSUFUWGPEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_Wlb5YGGqEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_WGqG8GGPEfGF4KdJ_nnczw" name="open/close command">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_WGr8IGGPEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_WGsjMGGPEfGF4KdJ_nnczw" role="_dvVlAGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_WGr8IGGPEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_Qith8GGqEfG9_6ylTxWvvg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_WGsjMGGPEfGF4KdJ_nnczw" partWithPort="_dvVlAGGOEfGF4KdJ_nnczw" role="_r7ROgGGqEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_yIUa4GGPEfGF4KdJ_nnczw" name="prediction result/request">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_yIW3IGGPEfGF4KdJ_nnczw" role="_jRsaUGGOEfGF4KdJ_nnczw"/>
@@ -1101,11 +1124,11 @@ IBD - WhiteBox</body>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_6gGlMGGPEfGF4KdJ_nnczw" name="alert trigger">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_6gJogGGPEfGF4KdJ_nnczw" role="_nLKmQGGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_6gJogWGPEfGF4KdJ_nnczw" role="_fK7ZQGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_6gJogWGPEfGF4KdJ_nnczw" partWithPort="_fK7ZQGGOEfGF4KdJ_nnczw" role="_Wlb5YGGqEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_8aB7QGGPEfGF4KdJ_nnczw" name="mobile notification">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_8aEXgGGPEfGF4KdJ_nnczw" role="_nLKmQGGOEfGF4KdJ_nnczw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_8aE-kGGPEfGF4KdJ_nnczw" role="_rmPqcGGOEfGF4KdJ_nnczw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_8aE-kGGPEfGF4KdJ_nnczw" partWithPort="_rmPqcGGOEfGF4KdJ_nnczw" role="_6VSoEGGqEfG9_6ylTxWvvg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_NmBGIGGQEfGF4KdJ_nnczw" name="hosts prediction service">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_NmDiYGGQEfGF4KdJ_nnczw" role="_jRsaUGGOEfGF4KdJ_nnczw"/>
@@ -1123,7 +1146,16 @@ IBD - WhiteBox</body>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_XGk2YGGQEfGF4KdJ_nnczw" role="_rmPqcGGOEfGF4KdJ_nnczw"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_XGk2YWGQEfGF4KdJ_nnczw" role="_qzohwGGOEfGF4KdJ_nnczw"/>
         </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_hmjS4GGpEfG9_6ylTxWvvg" name="entry / exit count">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_hmlvIGGpEfG9_6ylTxWvvg" role="_Yo5bYGGpEfG9_6ylTxWvvg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_hmlvIWGpEfG9_6ylTxWvvg" partWithPort="_eXS84GGOEfGF4KdJ_nnczw" role="_826swGGpEfG9_6ylTxWvvg"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_kT8tQGGpEfG9_6ylTxWvvg" name="CO2 / Temp / Humidity readings">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_kT_JgGGpEfG9_6ylTxWvvg" role="_XfzsYGGpEfG9_6ylTxWvvg"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_kUA-sGGpEfG9_6ylTxWvvg" partWithPort="_eXS84GGOEfGF4KdJ_nnczw" role="_826swGGpEfG9_6ylTxWvvg"/>
+        </ownedConnector>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6IIAsGGoEfG9_6ylTxWvvg" name="Physical Layer"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_dLkuoFzCEfGsr9P926G-xQ" name="05_Verification">
       <ownedComment xmi:type="uml:Comment" xmi:id="_KLYaAGGKEfGF4KdJ_nnczw">
@@ -1263,4 +1295,21 @@ IBD - WhiteBox</body>
   <Requirements:Verify xmi:id="_WQl-sGGSEfGF4KdJ_nnczw" base_DirectedRelationship="_WQhtQGGSEfGF4KdJ_nnczw" base_Abstraction="_WQhtQGGSEfGF4KdJ_nnczw"/>
   <Requirements:Verify xmi:id="_bA0McGGSEfGF4KdJ_nnczw" base_DirectedRelationship="_bAwiEGGSEfGF4KdJ_nnczw" base_Abstraction="_bAwiEGGSEfGF4KdJ_nnczw"/>
   <Requirements:Verify xmi:id="_b5EqIGGSEfGF4KdJ_nnczw" base_DirectedRelationship="_b5AYsGGSEfGF4KdJ_nnczw" base_Abstraction="_b5AYsGGSEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_tUTqkGGVEfGhgMMT1QFjog" base_Element="_wryn8GGOEfGF4KdJ_nnczw" propertyPath="_bU7_IGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_wryn8GGOEfGF4KdJ_nnczw"/>
+  <Blocks:Block xmi:id="_6IRKoGGoEfG9_6ylTxWvvg" base_Class="_6IIAsGGoEfG9_6ylTxWvvg"/>
+  <Blocks:NestedConnectorEnd xmi:id="_xC8IYGGpEfG9_6ylTxWvvg" base_Element="_xtmDMGGOEfGF4KdJ_nnczw" propertyPath="_dBH0IGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_xtmDMGGOEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="__6WBgGGpEfG9_6ylTxWvvg" base_Element="_hmlvIWGpEfG9_6ylTxWvvg" propertyPath="_eXS84GGOEfGF4KdJ_nnczw" base_ConnectorEnd="_hmlvIWGpEfG9_6ylTxWvvg"/>
+  <Blocks:NestedConnectorEnd xmi:id="_E0j4wGGqEfG9_6ylTxWvvg" base_Element="_wryn8WGOEfGF4KdJ_nnczw" propertyPath="_eXS84GGOEfGF4KdJ_nnczw" base_ConnectorEnd="_wryn8WGOEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Fng_sGGqEfG9_6ylTxWvvg" base_Element="_kUA-sGGpEfG9_6ylTxWvvg" propertyPath="_eXS84GGOEfGF4KdJ_nnczw" base_ConnectorEnd="_kUA-sGGpEfG9_6ylTxWvvg"/>
+  <Blocks:NestedConnectorEnd xmi:id="_GGASgGGqEfG9_6ylTxWvvg" base_Element="_xtmqQGGOEfGF4KdJ_nnczw" propertyPath="_eXS84GGOEfGF4KdJ_nnczw" base_ConnectorEnd="_xtmqQGGOEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_N1GFIGGqEfG9_6ylTxWvvg" base_Element="_8O3pkGGOEfGF4KdJ_nnczw" propertyPath="_eXS84GGOEfGF4KdJ_nnczw" base_ConnectorEnd="_8O3pkGGOEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_SM3WoGGqEfG9_6ylTxWvvg" base_Element="_8O3pkWGOEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_8O3pkWGOEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_kT6bkGGqEfG9_6ylTxWvvg" base_Element="_WGr8IGGPEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_WGr8IGGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_muZhAGGqEfG9_6ylTxWvvg" base_Element="_CZmGcGGPEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_CZmGcGGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_njYBMGGqEfG9_6ylTxWvvg" base_Element="_6gJogWGPEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_6gJogWGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_oCKO8GGqEfG9_6ylTxWvvg" base_Element="_PSUFUWGPEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_PSUFUWGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_o4TMwGGqEfG9_6ylTxWvvg" base_Element="_GmIYUGGPEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_GmIYUGGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_pS6FIGGqEfG9_6ylTxWvvg" base_Element="_L6ZuUGGPEfGF4KdJ_nnczw" propertyPath="_fK7ZQGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_L6ZuUGGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_s81ZMGGqEfG9_6ylTxWvvg" base_Element="_WGsjMGGPEfGF4KdJ_nnczw" propertyPath="_dvVlAGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_WGsjMGGPEfGF4KdJ_nnczw"/>
+  <Blocks:NestedConnectorEnd xmi:id="__2ltcGGqEfG9_6ylTxWvvg" base_Element="_8aE-kGGPEfGF4KdJ_nnczw" propertyPath="_rmPqcGGOEfGF4KdJ_nnczw" base_ConnectorEnd="_8aE-kGGPEfGF4KdJ_nnczw"/>
 </xmi:XMI>
